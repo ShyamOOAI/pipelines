@@ -1,6 +1,5 @@
 {
-  "pipeline_id": "7290268117685522565",
-  "version": 2,
+  "version": 3,
   "enabled": false,
   "org": "default",
   "name": "",
@@ -8,7 +7,7 @@
   "source": {
     "source_type": "realtime",
     "org_id": "default",
-    "stream_name": "",
+    "stream_name": "default",
     "stream_type": "logs"
   },
   "nodes": [
@@ -17,7 +16,7 @@
       "data": {
         "node_type": "stream",
         "org_id": "default",
-        "stream_name": "",
+        "stream_name": "default",
         "stream_type": "logs"
       },
       "position": {
@@ -31,7 +30,7 @@
       "data": {
         "node_type": "stream",
         "org_id": "default",
-        "stream_name": "",
+        "stream_name": "e2e_automate",
         "stream_type": "logs"
       },
       "position": {
@@ -63,8 +62,8 @@
         "num_args": 0
       },
       "position": {
-        "x": 280.1599,
-        "y": 161.48181
+        "x": 258.33786,
+        "y": 206.80452
       },
       "io_type": "default"
     },
@@ -73,7 +72,7 @@
       "data": {
         "node_type": "stream",
         "org_id": "default",
-        "stream_name": "",
+        "stream_name": "e2e_automate",
         "stream_type": "logs"
       },
       "position": {
@@ -215,7 +214,7 @@
     }
   ],
   "type": "realtime",
-  "stream_name": "",
+  "stream_name": "default",
   "stream_type": "logs",
-  "#": 10
+  "#": 1
 }
